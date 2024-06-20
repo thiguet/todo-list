@@ -1,7 +1,77 @@
 {
     "list": [
         {
-            "title": "Buy Groceries",
+            "name": "Buy Groceries",
+            "date":  "22/01/2024", 
+            "status": "pending"
+        },
+        {
+            "name": "Jonh textor ",
+            "date":  "22/01/2024", 
+            "status": "pending"
+        },
+        {
+            "name": "Cruzerio",
+            "date":  "22/01/2024", 
+            "status": "pending"
+        },
+        {
+            "name": "batata",
+            "date":  "22/01/2024", 
+            "status": "pending"
+        },
+        {
+            "name": "Buy Groceries",
+            "date":  "22/01/2024", 
+            "status": "pending"
+        },
+        {
+            "name": "Buy Groceries",
+            "date":  "22/01/2024", 
+            "status": "pending"
+        },
+        {
+            "name": "Buy Groceries",
+            "date":  "22/01/2024", 
+            "status": "pending"
+        },
+        {
+            "name": "Buy Groceries",
+            "date":  "22/01/2024", 
+            "status": "pending"
+        },
+        {
+            "name": "Buy Groceries",
+            "date":  "22/01/2024", 
+            "status": "pending"
+        },
+        {
+            "name": "Buy Groceries",
+            "date":  "22/01/2024", 
+            "status": "pending"
+        },
+        {
+            "name": "Buy Groceries",
+            "date":  "22/01/2024", 
+            "status": "pending"
+        },
+        {
+            "name": "Buy Groceries",
+            "date":  "22/01/2024", 
+            "status": "pending"
+        },
+        {
+            "name": "Buy Groceries",
+            "date":  "22/01/2024", 
+            "status": "pending"
+        },
+        {
+            "name": "Buy Groceries",
+            "date":  "22/01/2024", 
+            "status": "pending"
+        },
+        {
+            "name": "Buy Groceries",
             "date":  "22/01/2024", 
             "status": "pending"
         }
