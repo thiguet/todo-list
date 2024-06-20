@@ -1,47 +1,75 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import Item from './components/Item.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+    <div id="container">
+        <ul>
+            <li>
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+                <Item name="Buy groceries" date="22/01/2023 at 1:00 PM " status="Pendente"> </Item>
+
+            </li>
+            <li>
+
+                <Item name="Finish homework" date="22/02/2023 at 7:00 AM " status="Pendente"> </Item>
+
+            </li>
+            <li>
+
+                <Item name="Call mon" date="12/05/2023 at 4:00 PM" status="Pendente "> </Item>
+
+            </li>
+            <li>
+
+                <Item name="go for a run" date="30/03/2023 at 9:00 AM " status="Pendente"> </Item>
+
+
+            </li>
+            <li>
+
+                <Item name="Read a book" date="02/05/2023 at 8:00 PM " status="Completed"> </Item>
+
+            </li>
+            <li>
+
+                <Item name="Write a-blog post" date="12/01/2023 at 5:00 AM " status="Pendente"> </Item>
+
+
+            </li>
+            <li>
+
+                <Item name="Attend a meeting" date="08/01/2023 at 1:00 PM " status="Pendente"> </Item>
+
+            </li>
+            <li>
+
+                <Item name="Clean the House" date="23/01/2023 at 3:00 AM " status="Completed"> </Item>
+
+            </li>
+            <li>
+
+                <Item name="Ptractice Playing Guitar" date="17/01/2023 at 6:00 AM " status="Completed"> </Item>
+
+            </li>
+
+
+
+
+
+        </ul>
     </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
 </template>
-
-<style scoped>
-header {
-  line-height: 1.5;
+<style>
+ul {
+    list-style-type: none;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
+button {
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    text-align: start;
+    cursor: pointer
 }
 </style>
