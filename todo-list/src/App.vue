@@ -1,64 +1,13 @@
 <script setup lang="ts">
-import Item from './components/Item.vue'
+import SearchableList from './components/SearchableList.vue'
 </script>
 
 <template>
-    <div id="container">
-        <ul>
-            <li>
-
-                <Item name="Buy groceries" date="22/01/2023 at 1:00 PM " status="Pendente"> </Item>
-
-            </li>
-            <li>
-
-                <Item name="Finish homework" date="22/02/2023 at 7:00 AM " status="Pendente"> </Item>
-
-            </li>
-            <li>
-
-                <Item name="Call mon" date="12/05/2023 at 4:00 PM" status="Pendente "> </Item>
-
-            </li>
-            <li>
-
-                <Item name="go for a run" date="30/03/2023 at 9:00 AM " status="Pendente"> </Item>
-
-
-            </li>
-            <li>
-
-                <Item name="Read a book" date="02/05/2023 at 8:00 PM " status="Completed"> </Item>
-
-            </li>
-            <li>
-
-                <Item name="Write a-blog post" date="12/01/2023 at 5:00 AM " status="Pendente"> </Item>
-
-
-            </li>
-            <li>
-
-                <Item name="Attend a meeting" date="08/01/2023 at 1:00 PM " status="Pendente"> </Item>
-
-            </li>
-            <li>
-
-                <Item name="Clean the House" date="23/01/2023 at 3:00 AM " status="Completed"> </Item>
-
-            </li>
-            <li>
-
-                <Item name="Ptractice Playing Guitar" date="17/01/2023 at 6:00 AM " status="Completed"> </Item>
-
-            </li>
-
-
-
-
-
-        </ul>
-    </div>
+  <main>
+    <h2>Todo List</h2>
+    <SearchableList  />
+    
+  </main>
 </template>
 <style>
 ul {
