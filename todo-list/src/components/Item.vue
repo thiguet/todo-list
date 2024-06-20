@@ -1,14 +1,16 @@
 <template>
-    <div class="container">
-        <div>
-            <h3> {{ name }}</h3>
-            <span> {{ date }}</span>
+    <button>
+        <div class="container">
+            <div>
+                <h3> {{ name }}</h3>
+                <span> {{ date }}</span>
 
+            </div>
+            <div>
+                <span> {{ status }}</span>
+            </div>
         </div>
-        <div>
-            <span> {{ status }}</span>
-        </div>
-    </div>
+    </button>
 </template>
 <script>
 export default {
