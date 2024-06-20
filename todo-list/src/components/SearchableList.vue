@@ -11,7 +11,7 @@ export default {
   },
   computed: {
     filteredItems() {
-        return this.items.filter(item => item.title.includes(this.s));
+        return this.items.filter(item => item.name.includes(this.s));
     } 
   },
   methods: {
